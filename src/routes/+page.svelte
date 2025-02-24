@@ -1,5 +1,8 @@
 <script lang="ts">
-    
+    let review_info:any = []
+fetch('https://sheetdb.io/api/v1/p2lfv6hu1izi0?sheet=Reviews')
+  .then((response) => response.json())
+  .then((data) => review_info = data);
 </script>
 <main class="container-fluid">
     
@@ -32,7 +35,7 @@
                 <li >Mathematical Statistics</li>
             </ul>
             <p>
-                For inquiries on availability and pricing please email me at <a href="mailto:maxmata99@gmail.com">maxmata99@gmail.com</a>
+                For inquiries on availability and pricing please email me at <a href="mailto:maxmata99@gmail.com">maxmata99@gmail.com</a> or text/call me at <a href="tel:702-478-0816">(702)-478-0816</a>
             </p>
         </div>
     </article>
@@ -43,8 +46,26 @@
             </h2>
         </header>
         <p>
-            For those who I am currently tutoring, our session notes can be found in the student section under your Id and accessed with your student code. Practice material and quizzes can be found for your class can be found within their respective pages.
+            For those who I am currently tutoring, our session notes can be found in the student section under your ID and accessed with your student code. Practice material and quizzes for your class can be found within their respective pages.
         </p>
+    </article>
+    <article>
+        <header>
+            <hgroup>
+                <h2>Reviews</h2>
+                <p>The following are real reviews from real students. To submit your own review please go to the review page.</p>
+            </hgroup>
+        </header>
+        {#each review_info as Reviews}
+        {#if Reviews.Approved == "TRUE"}
+            <blockquote>
+                {Reviews.Review}
+                <footer>
+                    <cite>- {Reviews.Submitter}</cite>
+                </footer>
+            </blockquote>
+        {/if}
+        {/each}
     </article>
 </main>
 <style>

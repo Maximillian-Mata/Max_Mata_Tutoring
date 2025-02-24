@@ -28,7 +28,8 @@
             <li><a href="/Geometry">Geometry</a></li>
             <li><a href="/Calculus">Calculus</a></li>
             <li><a href="/Statistics">Statistics</a></li>
-            <li><a href="/Students">Students</a></li></ul>
+            <li><a href="/Students">Students</a></li>
+            <li><a href="/Reviews">Reviews</a></li></ul>
         </details>
       </li>
       
