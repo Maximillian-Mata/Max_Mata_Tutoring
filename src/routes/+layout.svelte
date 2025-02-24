@@ -21,11 +21,17 @@
       <li><a class="contrast" href="/"><strong>Max Mata's Math Tutoring</strong></a></li>
     </ul>
     <ul>
-      <li><a href="/Algebra">Algebra</a></li>
-      <li><a href="/Geometry">Geometry</a></li>
-      <li><a href="/Calculus">Calculus</a></li>
-      <li><a href="/Statistics">Statistics</a></li>
-      <li><a href="/Students">Students</a></li>
+      <li>
+        <details class="dropdown">
+          <summary>Sections</summary>
+          <ul><li><a href="/Algebra">Algebra</a></li>
+            <li><a href="/Geometry">Geometry</a></li>
+            <li><a href="/Calculus">Calculus</a></li>
+            <li><a href="/Statistics">Statistics</a></li>
+            <li><a href="/Students">Students</a></li></ul>
+        </details>
+      </li>
+      
     </ul>
   </nav>
 </div>
