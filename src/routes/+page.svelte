@@ -29,6 +29,7 @@ fetch('https://sheetdb.io/api/v1/p2lfv6hu1izi0?sheet=Reviews')
                 <li >Algebra I / II</li>
                 <li >Geometry</li>
                 <li >Pre-Calc I / II</li>
+                <li>Trigonometry</li>
                 <li >AP Calculus AB / BC</li>
                 <li >AP Statistics</li>
                 <li >Calculus I / II / III</li>
