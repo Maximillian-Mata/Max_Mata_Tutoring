@@ -35,7 +35,7 @@ fetch('https://sheetdb.io/api/v1/p2lfv6hu1izi0?sheet=Reviews')
                 <li >Mathematical Statistics</li>
             </ul>
             <p>
-                For inquiries on availability and pricing please email me at <a href="mailto:maxmata99@gmail.com">maxmata99@gmail.com</a> or text/call me at <a href="tel:702-478-0816">(702)-478-0816</a>
+                For inquiries on availability and pricing please email me at <a href="mailto:maxstutoringLV@gmail.com">maxstutoringLV@gmail.com</a> or text/call me at <a href="tel:702-478-0816">(702)-478-0816</a>
             </p>
         </div>
     </article>
